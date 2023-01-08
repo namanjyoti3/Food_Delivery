@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo img {
+    width: 55px;
+    height: 55px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    width: 420.99pxpx;
+    height: 75.56px;
+}
+
+#logo {
+    margin: 10px 34px;
+    display: cover;
+
+}
+
+#logo img {
+    margin: 3px 6px;
+}
+
+#navbar ul {
+    display: flex;
+    width: 1000px;
+    list-style: none;
+    align-items: center;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+
+}
+
+#navbar ul li a {
+    border-radius: 20px;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    top: 0px;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    /* height: 414px; */
+    height: 395px
+}
+
+#home::before {
+    content: "";
+    background: url(puyallup-fair-fruit-and-vegetable-display-v.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 66%;
+    width: 106%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0;
+    left: 0;
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+#services .box {
+    border: 2px solid brown;
+    width: 10000px;
+    padding: 34px;
+    /* margin: 3px 6px; */
+    margin: 3px 18px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img {
+    height: 124px;
+}
+
+.client-item {
+    padding: 34px;
+}
+
+#client-section {
+    height: 344px;
+    position: relative;
+}
+
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('300220.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#contact {
+    position: relative;
+    /* height: 127px; */
+    height: 502px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 108%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(videoblocks-the-two-business-people-handshake-on-the-sunny-background-slow-motion_rbciusjez_thumbnail-1080_01.png) no-repeat center center/cover;
+}
+
+.ro {
+    padding: 10px;
+    height: 21px;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+
+
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.8rem;
+}
+
+
+#contact-box textarea {
+    width: 102%;
+    /* border-radius: 9px; */
+    padding: 0.4rem;
+
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#contact-box input {
+    width: 102%;
+    /* border-radius: 9px; */
+    padding: 0.4rem;
+    /* border-radius: 24px; */
+    border-radius: 10px;
+}
+
+
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
